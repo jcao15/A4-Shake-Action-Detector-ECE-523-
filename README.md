@@ -1,31 +1,26 @@
-See the [requirements in requirements.md](requirements.md) or on Canvas. 
-
-When you are ready, edit this file with the following info: 
-
-# A1: Hello Android (Your Name Here)
+# A4: Real-time smartphone sensor data processing. Accelerometer/Gyroscope applications (Jeremy Cao)
 
 ## Overview
 
-I built a thing that does something. But tell me what you built! 
+I built an Android app to detect shake action in two modes in response to sensors on the device.
 
 ## Using the app 
 
-Tell me anything I need to know about running the app. 
+There is two button in the main page that are clickable to enter different mode.
+Free Mode: As user shaking the device, the counter will increment by shake detection.
+User Defined Mode: As user set a target counter, once user shakes the device up to the number of target counter, device will be
+automatically play a ringtone.
 
 ## Walkthrough
-
-Include some screenshots and information. Put the screenshots in the [imgs](imgs) directory, and include them in this readme like this: 
 
 ![Sample Screenshot](imgs/11.png?raw=tru) ![Sample Screenshot](imgs/22.png?raw=tru)
 ![Sample Screenshot](imgs/33.png?raw=tru)
 
-Or use html to resize it: 
-
-<img src="imgs/11.png" width="100"> <img src="imgs/22.png" width="50">
-<img src="imgs/33.png" width="50">
-
 ## Reflection/Summary
 
-Summary of why you chose this project, what you learned or found surprising, what you found challenging or unexpected. You might include something you didn't finish or polish or would like to do different in the future. 
+To Do:
+-Pull-ups detector detects movements with “certain” accuracy.
+- More accurate moving average filter implementation
+
 
 
