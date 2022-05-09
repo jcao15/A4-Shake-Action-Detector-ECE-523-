@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">a4-shake-and-step-detector</string>
+    <string name="real_time_step_counter">Real Time Step Counter</string>
+    <string name="free_mode">Free Mode</string>
+    <string name="user_defined_mode">User Defined Mode</string>
+</resources>
