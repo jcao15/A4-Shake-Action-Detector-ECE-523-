@@ -8,11 +8,11 @@ import android.hardware.SensorManager
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.util.Log
+import android.view.View.VISIBLE
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-
 import kotlin.math.abs
 import kotlin.math.sqrt
 
@@ -30,8 +30,10 @@ class UserDefineMode : AppCompatActivity() {
     lateinit var tvCount2: TextView
     lateinit var etTargetValue: EditText
     private lateinit var btnStop2: Button
+    private lateinit var ringtoneT: TextView
 
-//    private var alpha = 0.75f
+
+    //    private var alpha = 0.75f
 //    private var accelGravity = FloatArray(3)
 //    private var xf = 0.0f
 //    private var yf = 0.0f
@@ -50,6 +52,8 @@ class UserDefineMode : AppCompatActivity() {
         tvCount2 = findViewById(R.id.tvCount2)
         etTargetValue = findViewById(R.id.etTargetValue)
         btnStop2 = findViewById(R.id.btnStop2)
+        ringtoneT = findViewById(R.id.ringtoneTv)
+
         mediaPlayer = MediaPlayer.create(this, R.raw.ringtone)
 
         acceleration = 10f
@@ -106,8 +110,11 @@ class UserDefineMode : AppCompatActivity() {
             val nMax = etTargetValue.text.toString().toInt()
             //if the count amount reach the max number, it plays a ringtone
             if (tvCount2.text.toString().toInt() == nMax) {
-                Log.i("SensorClassActivity","play ringtone!!!!!!!!")
+                Log.i("SensorClassActivity", "play ringtone!!!!!!!!")
+
                 mediaPlayer.start()
+                ringtoneT.visibility = VISIBLE
+
             }
         }
 
