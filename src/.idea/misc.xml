@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jinca/AndroidStudioProjects/assignment-4-shake-and-step-detector-jcao15/src/app/src/main/res/layout/activity_free_mode.xml" value="0.25" />
+        <entry key="..\:/Users/jinca/AndroidStudioProjects/assignment-4-shake-and-step-detector-jcao15/src/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jinca/AndroidStudioProjects/assignment-4-shake-and-step-detector-jcao15/src/app/src/main/res/layout/activity_user_define_mode.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+</project>
