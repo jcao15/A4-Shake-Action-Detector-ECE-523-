@@ -20,7 +20,7 @@ Include some screenshots and information. Put the screenshots in the [imgs](imgs
 
 Or use html to resize it: 
 
-<img src="imgs/11.png" width="50"> <img src="imgs/22.png" width="50">
+<img src="imgs/11.png" width="100"> <img src="imgs/22.png" width="50">
 <img src="imgs/33.png" width="50">
 
 ## Reflection/Summary
